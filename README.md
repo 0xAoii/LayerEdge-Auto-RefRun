@@ -35,23 +35,23 @@ nvm install --lts
 
 2. Clone repository
 ```
-   git clone https://github.com/0xAoii/LayerEdge-Auto-RefRun.git
+git clone https://github.com/0xAoii/LayerEdge-Auto-RefRun.git
 ```
 ```
-   cd LayerEdge-Auto-RefRun
+cd LayerEdge-Auto-RefRun
 ```
 
 4. Create Screen
 ```
-   Screen -S "screen-name"
+Screen -S "screen-name"
 ```
 5. Install required dependencies
 ```
-   npm install
+npm install
 ```
 6. Auto Ref and Create Wallets
 ```
-   npm run autoref
+npm run autoref
 ```
 Input desired number of referrals and wait for the process to complete
 input your Referral Code (e.g. asecedscs)
@@ -59,5 +59,5 @@ e.g 10 wallets
 
 7. Run Script to Run all Nodes (After wallets created)
 ```
-   npm run start
+npm run start
 ```
