@@ -1,13 +1,17 @@
-# LayerEdge-Auto-RefRun
+# LayerEdge-Auto-RefRun<h1>
 LayerEdge Auto Ref + Run
+
+Disclaimer: This program may cause your account to be tagged as sybil.
+I recommend using a dummy or test account.
+Thanks!
 
 website : https://dashboard.layeredge.io/
  #
-**Prerequisites**
+<h2>Prerequisites</h2>
 
 Node.js installed on your machine
 #
-**Install**
+<h2>Install</h2>
 
 1. Prerequisites for NPM
 
@@ -25,7 +29,30 @@ nvm install --lts
 ```
 
 2. Clone repository
-   git clone https://github.com/Zlkcyber/LayerEdge-Auto-RefRun
-.git
-   
-4. 
+```
+   git clone https://github.com/0xAoii/LayerEdge-Auto-RefRun.git
+```
+```
+   cd LayerEdge-Auto-RefRun
+```
+
+4. Create Screen
+```
+   Screen -S "screen-name"
+```
+5. Install required dependencies
+```
+   npm install
+```
+6. Auto Ref and Create Wallets
+```
+   npm run autoref
+```
+Input desired number of referrals and wait for the process to complete
+input your Referral Code (e.g. asecedscs)
+e.g 10 wallets
+
+7. Run Script to Run all Nodes (After wallets created)
+```
+   npm run start
+```
