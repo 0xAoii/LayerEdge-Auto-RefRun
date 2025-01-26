@@ -15,7 +15,8 @@ Node.js installed on your machine
 
 1. Prerequisites for NPM
 
-```curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.0/install.sh | bash```
+```
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.0/install.sh | bash```
 
 ```
 echo 'export NVM_DIR="$HOME/.nvm"' >> $HOME/.bash_profile
