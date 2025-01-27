@@ -37,13 +37,13 @@ nvm install --lts
 ```
 git clone https://github.com/0xAoii/LayerEdge-Auto-RefRun.git
 ```
-```
-cd LayerEdge-Auto-RefRun
-```
-
-4. Create Screen
+4. Create Screen and go CD
 ```
 Screen -S "screen-name"
+```
+
+```
+cd LayerEdge-Auto-RefRun
 ```
 5. Install required dependencies
 ```
